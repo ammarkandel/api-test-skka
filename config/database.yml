@@ -1,6 +1,6 @@
 default: &default
-  adapter: postgresql
-  encoding: unicode
+  adapter: mysql2
+  encoding: utf8mb4
   host: card-dev.cgeos2quecpn.us-east-1.rds.amazonaws.com
   username: card
   password: '1234567890'
